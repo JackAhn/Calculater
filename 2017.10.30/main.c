@@ -20,8 +20,8 @@ int main() {
 			printf("계산할 식을 적어주세요 : ");
 			scanf("%s", arr);
 			Change(&arr);
-			printf("%s\n", store);
-			printf("%d\n", calculate(&stack2));
+			printf("후위연산 결과 : %s\n", store);
+			printf("계산 결과 : %d\n", calculate(&stack2));
 		}
 		else if (a == 2) {
 			printf("계산기를 종료합니다.\n");

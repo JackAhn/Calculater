@@ -20,7 +20,6 @@ void Change(char *arr) {
 	int i, j;
 	int count=0, tmp=0;
 	for (i = 0; arr[i] != '\0'; i++) {
-		printf("%s\n", store);
 		if (arr[i] >= '0' && arr[i] <= '9') {
 			stores(arr[i]);
 			count++;
